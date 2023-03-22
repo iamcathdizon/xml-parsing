@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Collection>
+    <Medicine>
+        <TREATMENT>COUGH</TREATMENT>
+        <BRAND>ROBITUSIN</BRAND>
+        <GENERIC>DEXTROMETHORPHAN</GENERIC>
+        <MANUFACTURER>GSK CONSUMER HEALTHCARE</MANUFACTURER>
+        <TYPE>SYRUP</TYPE>
+        <DOSAGE>
+            100mg
+            10mg
+            5ml
+        </DOSAGE>
+    </Medicine>
+    <Medicine>
+        <TREATMENT>COUGH</TREATMENT>
+        <BRAND>STREPSILS</BRAND>
+        <GENERIC>DICHLOROBENZYL ALCOHOL</GENERIC>
+        <MANUFACTURER>RECKITT</MANUFACTURER>
+        <TYPE>LOZENGE</TYPE>
+        <DOSAGE>
+            8.75mg
+            1.2ml
+            0.6mg
+        </DOSAGE>
+        </Medicine>
+        <Medicine>
+            <TREATMENT>COUGH</TREATMENT>
+            <BRAND>ASCOF LAGUNDI</BRAND>
+            <GENERIC>VITEX NEGUNDO LEAF</GENERIC>
+            <MANUFACTURER>PASCUAL LABORATORIES</MANUFACTURER>
+            <TYPE>SYRUP</TYPE>
+            <DOSAGE>
+                200mg
+                5ml
+                1.67mg
+            </DOSAGE>
+        </Medicine>
+        <Medicine>
+            <TREATMENT>COUGH</TREATMENT>
+            <BRAND>SOLMUX</BRAND>
+            <GENERIC>CARBOCISTEINE</GENERIC>
+            <MANUFACTURER>UNILAB INC.</MANUFACTURER>
+            <TYPE>TABLET</TYPE>
+            <DOSAGE>
+                500mg
+                250mg
+            </DOSAGE>
+        </Medicine>
+        <Medicine>
+            <TREATMENT>COUGH</TREATMENT>
+            <BRAND>MUCINEX</BRAND>
+            <GENERIC>GUAIFENESIN</GENERIC>
+            <MANUFACTURER>RECKITT BENCKISER PHARMACEUTICALS INC.</MANUFACTURER>
+            <TYPE>GEL TABLET</TYPE>
+            <DOSAGE>
+                600mg
+                400mg
+                200mg
+            </DOSAGE>
+        </Medicine>
+
+        <Medicine>
+            <TREATMENT>FEVER</TREATMENT>
+            <BRAND>BIOGESIC</BRAND>
+            <GENERIC>PARACETAMOL</GENERIC>
+            <MANUFACTURER>UNILAB INC.</MANUFACTURER>
+            <TYPE>TABLET</TYPE>
+            <DOSAGE>
+                500mg
+                325mg
+                250mg
+            </DOSAGE>
+        </Medicine>
+        <Medicine>
+            <TREATMENT>FEVER</TREATMENT>
+            <BRAND>TEMPRA</BRAND>
+            <GENERIC>PARACETAMOL</GENERIC>
+            <MANUFACTURER>TAISHO PHARMACEUTICAL HOLDINGS</MANUFACTURER>
+            <TYPE>SYRUP</TYPE>
+            <DOSAGE>
+                250mg
+                120mg
+                100mg
+            </DOSAGE>
+        </Medicine>
+        <Medicine>
+            <TREATMENT>FEVER</TREATMENT>
+            <BRAND>ADVIL</BRAND>
+            <GENERIC>IBUPROFEN</GENERIC>
+            <MANUFACTURER>PFIZER</MANUFACTURER>
+            <TYPE>GEL TABLET </TYPE>
+            <DOSAGE>
+                800mg
+                400mg
+                200mg
+            </DOSAGE>
+        </Medicine>
+        <Medicine>
+            <TREATMENT>FEVER</TREATMENT>
+            <BRAND>ALAXAN FR</BRAND>
+            <GENERIC>IBUPROFEN</GENERIC>
+            <MANUFACTURER>UNILAB INC.</MANUFACTURER>
+            <TYPE>TABLET</TYPE>
+            <DOSAGE>
+                325mg
+                200mg
+            </DOSAGE>
+        </Medicine>
+        <Medicine>
+            <TREATMENT>FEVER</TREATMENT>
+            <BRAND>DECOLGEN</BRAND>
+            <GENERIC>PHENYLPROPANOLAMINE HCI</GENERIC>
+            <MANUFACTURER>UNILAB INC.</MANUFACTURER>
+            <TYPE>TABLET</TYPE>
+            <DOSAGE>
+                500mg
+                250mg
+                25mg
+            </DOSAGE>
+        </Medicine>
+
+        <Medicine>
+            <TREATMENT>HEADACHE</TREATMENT>
+            <BRAND>SARIDON</BRAND>
+            <GENERIC>PROPYHENAZONE</GENERIC>
+            <MANUFACTURER>PIEAMAL ENTERPRISES</MANUFACTURER>
+            <TYPE>TABLET</TYPE>
+            <DOSAGE>
+                250mg
+                150mg
+                50mg
+            </DOSAGE>
+        </Medicine>
+        <Medicine>
+            <TREATMENT>HEADACHE</TREATMENT>
+            <BRAND>PONSTAN</BRAND>
+            <GENERIC>MEFENAMIC ACID</GENERIC>
+            <MANUFACTURER>CHEMIDEX PHARMA LTD.</MANUFACTURER>
+            <TYPE>CAPSULE</TYPE>
+            <DOSAGE>
+                500mg
+                250mg
+                50mg
+            </DOSAGE>
+        </Medicine>
+        <Medicine>
+            <TREATMENT>HEADACHE</TREATMENT>
+            <BRAND>NAPROXEN</BRAND>
+            <GENERIC>ALEVE</GENERIC>
+            <MANUFACTURER>REDDY'S LABORATORIES</MANUFACTURER>
+            <TYPE>TABLET</TYPE>
+            <DOSAGE>
+                550mg
+                275mg
+                250mg
+            </DOSAGE>
+        </Medicine>
+        <Medicine>
+            <TREATMENT>HEADACHE</TREATMENT>
+            <BRAND>KREMIL-S</BRAND>
+            <GENERIC>ALUMINUM HYDROXIDE</GENERIC>
+            <MANUFACTURER>UNILAB INC.</MANUFACTURER>
+            <TYPE>CHEWABLE TABLET</TYPE>
+            <DOSAGE>
+                800mg
+                165mg
+                10mg
+            </DOSAGE>
+        </Medicine>
+        <Medicine>
+            <TREATMENT>HEADACHE</TREATMENT>
+            <BRAND>ALAXAN</BRAND>
+            <GENERIC>IBUPROFEN</GENERIC>
+            <MANUFACTURER>UNILAB INC.</MANUFACTURER>
+            <TYPE>TABLET</TYPE>
+            <DOSAGE>
+                325mg
+                200mg
+                150mg
+            </DOSAGE>
+        </Medicine>
+
+        <Medicine>
+            <TREATMENT>TOOTHACHE</TREATMENT>
+            <BRAND>DECOLGEN</BRAND>
+            <GENERIC>PHENYLPROPANOLAMINE HCI</GENERIC>
+            <MANUFACTURER>UNILAB INC.</MANUFACTURER>
+            <TYPE>TABLET</TYPE>
+            <DOSAGE>
+                500mg
+                250mg
+                10mg
+            </DOSAGE>
+        </Medicine>
+        <Medicine>
+            <TREATMENT>TOOTHACHE</TREATMENT>
+            <BRAND>BONAMINE</BRAND>
+            <GENERIC>MECLIZINE HYDROCHLORIDE</GENERIC>
+            <MANUFACTURER>INTERPHIL LABORATORIES INC.</MANUFACTURER>
+            <TYPE>CHEWABLE TABLET</TYPE>
+            <DOSAGE>
+                25mg
+                12.5mg
+                5mg
+            </DOSAGE>
+        </Medicine>
+        <Medicine>
+            <TREATMENT>TOOTHACHE</TREATMENT>
+            <BRAND>MOTRIN</BRAND>
+            <GENERIC>ORAL ROUTE</GENERIC>
+            <MANUFACTURER>JOHNSON and JOHNSON</MANUFACTURER>
+            <TYPE>TABLET</TYPE>
+            <DOSAGE>
+                800mg
+                400mg
+                200mg
+            </DOSAGE>  
+        </Medicine>
+        <Medicine>
+            <TREATMENT>TOOTHACHE</TREATMENT>
+            <BRAND>TYLENOL</BRAND>
+            <GENERIC>ACETAMINOPHEN</GENERIC>
+            <MANUFACTURER>JOHNSON and JOHNSON</MANUFACTURER>
+            <TYPE>TABLET</TYPE>
+            <DOSAGE>
+                500mg
+                250mg
+                50mg
+            </DOSAGE>
+        </Medicine>
+        <Medicine>
+            <TREATMENT>TOOTHACHE</TREATMENT>
+            <BRAND>ORAJEL</BRAND>
+            <GENERIC>BENZOCAINE OROPHARYNGEAL</GENERIC>
+            <MANUFACTURER>CHURCH and DWIGHT CO INC.</MANUFACTURER>
+            <TYPE>OINTMENT</TYPE>
+            <DOSAGE>
+                20%
+                10%
+                0.75%
+            </DOSAGE>
+
+        </Medicine>
+        <Medicine>
+            <TREATMENT>STOMACHACHE</TREATMENT>
+            <BRAND>BUSCOPAN</BRAND>
+            <GENERIC>HYOSCINE BUTYLBROMID</GENERIC>
+            <MANUFACTURER>BOEHRINGER INGELHEIM</MANUFACTURER>
+            <TYPE>TABLET</TYPE>
+            <DOSAGE>
+                40mg
+                20mg
+                10mg
+            </DOSAGE>
+        </Medicine>
+        <Medicine>
+            <TREATMENT>STOMACHACHE</TREATMENT>
+            <BRAND>LOPERAMIDE</BRAND>
+            <GENERIC>IMODIUM A D</GENERIC>
+            <MANUFACTURER>RALINGTON PHARMA LLP</MANUFACTURER>
+            <TYPE>CAPSULE</TYPE>
+            <DOSAGE>
+                8mg
+                4mg
+                2mg
+            </DOSAGE>
+        </Medicine>
+        <Medicine>
+            <TREATMENT>STOMACHACHE</TREATMENT>
+            <BRAND>ANTACID</BRAND>
+            <GENERIC>ALKA SELTZER TUMS</GENERIC>
+            <MANUFACTURER>MAKERS NUTRITION</MANUFACTURER>
+            <TYPE>LIQUID SUSPENSION</TYPE>
+            <DOSAGE>
+                500mg
+                200mg
+                100mg
+            </DOSAGE>
+        </Medicine>
+        <Medicine>
+            <TREATMENT>STOMACHACHE</TREATMENT>
+            <BRAND>KREMIL-S</BRAND>
+            <GENERIC>ALUMINUM HYDROXIDE</GENERIC>
+            <MANUFACTURER>UNILAB INC.</MANUFACTURER>
+            <TYPE>CHEWABLE TABLET</TYPE>
+            <DOSAGE>
+                800mg
+                165mg
+                10mg
+            </DOSAGE>
+        </Medicine>
+        <Medicine>
+            <TREATMENT>STOMACHACHE</TREATMENT>
+            <BRAND>GANATON</BRAND>
+            <GENERIC>ITOPRIDE HYDROCHLORIDE</GENERIC>
+            <MANUFACTURER>ABBOTT HEALTH</MANUFACTURER>
+            <TYPE>CAPSULE</TYPE>
+            <DOSAGE>
+                150mg
+                80mg
+                50mg
+            </DOSAGE>
+        </Medicine>
+</Collection>    
