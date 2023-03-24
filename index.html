@@ -12,7 +12,7 @@
     <button type="button" onclick="loadXMLDoc()">
     Get My MEDICINE Collection</button>
     
-    <table id="demo" border="1" cellspacing="0" cellpadding="10" width="80%" align="center"">
+    <table id="demo" border="1" cellspacing="1" cellpadding="10" width="80%" align="center"">
     </table>
     
     <script>
@@ -23,43 +23,47 @@
                     createTable(this);
                 }
             };
-            xmlhttp.open("GET", "medicine_collection.xml", true);
+            xmlhttp.open("GET", "medicine.xml", true);
             xmlhttp.send();
         }
         
         function createTable(xml) {
-            var i, xmlDoc, txt;
+            var x, xmlDoc, txt;
             
-            // Actual XML File Object mode
+            // Actual XML File Obyect mode
             xmlDoc = xml.responseXML; 
 
             txt = `
                 <tr>
-                    <th>TREATMENT</th>
-                    <th>BRAND</th>
-                    <th>GENERIC</th>
-                    <th>MANUFACTURER</th>
-                    <th>TYPE</th>
-                    <th>DOSAGE</th>
+                    <th>Treatment</th>
+                    <th>Brand</th>
+                    <th>Manufacturer</th>
+                    <th>Dose</th>
                 </tr>
             `;
 
-            var treatment = xmlDoc.getElementsByTagName("TREATMENT");
-            var brand = xmlDoc.getElementsByTagName("BRAND");
-            var generic = xmlDoc.getElementsByTagName("GENERIC");
-            var manufacturer = xmlDoc.getElementsByTagName("MANUFACTURER");
-            var type = xmlDoc.getElementsByTagName("TYPE");
-            var dosage = xmlDoc.getElementsByTagName("DOSAGE");
+            var treatment = xmlDoc.getElementsByTagName("treatment");
+            var brand = xmlDoc.getElementsByTagName("brand");
+            var manufacturer = xmlDoc.getElementsByTagName("manufacturer");
+            var dose = xmlDoc.getElementsByTagName("dose");
 
-            for (i = 0; i< treatment.length; i++) {
+            for (x = 0; x< treatment.length; x++) {
                 txt += `
                     <tr>
-                        <td>${treatment[i].childNodes[0].nodeValue}</td>
-                        <td>${brand[i].childNodes[0].nodeValue}</td>
-                        <td>${generic[i].childNodes[0].nodeValue}</td>
-                        <td>${manufacturer[i].childNodes[0].nodeValue}</td>
-                        <td>${type[i].childNodes[0].nodeValue}</td>
-                        <td><ul><li>${dosage[i].childNodes[0].nodeValue}</li></ul></td>
+                        <td>${treatment[x].childNodes[0].nodeValue}</td>
+                        <td>${brand[x].childNodes[0].nodeValue}</td>
+                        <td>${manufacturer[x].childNodes[0].nodeValue}</td>
+                        <td>
+                            <ul>`;
+                                var list = "";
+                                for(y = 0; y < dose.length-1; y++){
+                                    list += `<li>${dose[x].children[y].childNodes[0].nodeValue}</li>`;
+                                }
+
+                txt +=`
+                                ${list}
+                            </ul>
+                        </td>
                     </tr>
                 `;                
             }
