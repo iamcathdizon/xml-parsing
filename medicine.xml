@@ -1,1 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<Collection>
+    <Medicine>
+        <treatment>Cough</treatment>
+        <brand>Robitusin</brand>
+        <manufacturer>GSK Consumer Healthcare</manufacturer>
+        <dose>
+            <dosage>100mg</dosage>
+            <dosage>50mg</dosage>
+            <dosage>25mg</dosage>
+            <dosage>10mg</dosage>
+        </dose>
+    </Medicine>
+    <Medicine>
+        <treatment>Fever</treatment>
+        <brand>Biogesic</brand>
+        <manufacturer>Unilab Inc.</manufacturer>
+        <dose>
+            <dosage>500mg</dosage>
+            <dosage>325mg</dosage>
+            <dosage>250mg</dosage>
+            <dosage>50mg</dosage>
+        </dose>
+    </Medicine>
+    <Medicine>
+        <treatment>Headache</treatment>
+        <brand>Saridon</brand>
+        <manufacturer>Piemal Enterprises</manufacturer>
+        <dose>
+            <dosage>500mg</dosage>
+            <dosage>250mg</dosage>
+            <dosage>150mg</dosage>
+            <dosage>50mg</dosage>
+        </dose>
+    </Medicine>
+    <Medicine>
+        <treatment>Stomachache</treatment>
+        <brand>Buscopan</brand>
+        <manufacturer>Boehringer Ingelheim</manufacturer>
+        <dose>
+            <dosage>250mg</dosage>
+            <dosage>40mg</dosage>
+            <dosage>10mg</dosage>
+            <dosage>5mg</dosage>
+        </dose>
+    </Medicine>
+    <Medicine>
+        <treatment>Toothache</treatment>
+        <brand>Decolgen</brand>
+        <manufacturer>Unilab In.</manufacturer>
+        <dose>
+            <dosage>500mg</dosage>
+            <dosage>250mg</dosage>
+            <dosage>150mg</dosage>
+            <dosage>50mg</dosage>
+        </dose>
+    </Medicine>
+</Collection>
