@@ -1,18 +1,18 @@
-<!DOCTYPE html>
+<!DOCDosage_Formhtml>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Marvel Heroes Activity</title>
 </head>
 <body>
-    <h2>My MEDICINE Collection:</h2>
+    <h2>Show Medicine Collection:</h2>
 
     <button type="button" onclick="loadXMLDoc()">
-    Get My MEDICINE Collection</button>
+    Medicine</button>
     
-    <table id="demo" border="1" cellspacing="1" cellpadding="10" width="80%" align="center"">
+    <table id="demo" border="2" cellspacing="0" cellpadding="10" width="80%" align="center">
     </table>
     
     <script>
@@ -23,12 +23,12 @@
                     createTable(this);
                 }
             };
-            xmlhttp.open("GET", "medicine.xml", true);
+            xmlhttp.open("GET", "Medicines.xml", true);
             xmlhttp.send();
         }
         
         function createTable(xml) {
-            var x, xmlDoc, txt;
+            var i, xmlDoc, txt;
             
             // Actual XML File Object mode
             xmlDoc = xml.responseXML; 
@@ -36,35 +36,44 @@
             txt = `
                 <tr>
                     <th>Treatment</th>
-                    <th>Brand</th>
+                    <th>Brand Name</th>
+                    <th>Generic Name</th>
                     <th>Manufacturer</th>
-                    <th>Dose</th>
+                    <th>Dosage Form</th>
+                    <th>Dosage</th>
                 </tr>
             `;
 
-            var treatment = xmlDoc.getElementsByTagName("treatment");
-            var brand = xmlDoc.getElementsByTagName("brand");
-            var manufacturer = xmlDoc.getElementsByTagName("manufacturer");
-            var dose = xmlDoc.getElementsByTagName("dose");
+            var Treatment = xmlDoc.getElementsByTagName("Treatment");
+            var Brand_Name = xmlDoc.getElementsByTagName("Brand_Name");
+            var Generic_Name = xmlDoc.getElementsByTagName("Generic_Name");
+            var Manufacturer = xmlDoc.getElementsByTagName("Manufacturer");
+            var Dosage_Form= xmlDoc.getElementsByTagName("Dosage_Form");
+            var Dose1 = xmlDoc.getElementsByTagName("Dose1");
+            var Dose2 = xmlDoc.getElementsByTagName("Dose2");
+            var Dose3 = xmlDoc.getElementsByTagName("Dose3");
+            var Dose4 = xmlDoc.getElementsByTagName("Dose4");
 
-            for (x = 0; x< treatment.length; x++) {
+
+            for (i = 0; i< Treatment.length; i++) {
                 txt += `
                     <tr>
-                        <td>${treatment[x].childNodes[0].nodeValue}</td>
-                        <td>${brand[x].childNodes[0].nodeValue}</td>
-                        <td>${manufacturer[x].childNodes[0].nodeValue}</td>
-                        <td>
-                            <ul>`;
-                                var list = "";
-                                for(y = 0; y < dose.length-1; y++){
-                                    list += `<li>${dose[x].children[y].childNodes[0].nodeValue}</li>`;
-                                }
-
-                txt +=`
-                                ${list}
-                            </ul>
-                        </td>
+                        <td>${Treatment[i].childNodes[0].nodeValue}</td>
+                        <td>${Brand_Name[i].childNodes[0].nodeValue}</td>
+                        <td>${Generic_Name[i].childNodes[0].nodeValue}</td>
+                        <td>${Manufacturer[i].childNodes[0].nodeValue}</td>
+                        <td>${Dosage_Form[i].childNodes[0].nodeValue}</td>
+                            <th>
+                                <ul>
+                                    <li>${Dose1[i].childNodes[0].nodeValue}</li>
+                                    <li>${Dose2[i].childNodes[0].nodeValue}</li>
+                                    <li>${Dose3[i].childNodes[0].nodeValue}</li>
+                                    <li>${Dose4[i].childNodes[0].nodeValue}</li>
+                                </ul>
+                            </th>
                     </tr>
+                    
+                
                 `;                
             }
 
