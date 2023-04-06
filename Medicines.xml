@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<MARVEL_HEROES>
-    <HERO>
+<Medicines>
+    <Medicine>
         <Treatment>Cough</Treatment>
         <Brand_Name>Robitusin</Brand_Name>
         <Generic_Name>Guaifenesin</Generic_Name>
@@ -12,57 +12,57 @@
                 <Dose3>25mg</Dose3>  
                 <Dose4>10mg</Dose4>  
             </Dosage>
-    </HERO>
-    <HERO>
+    </Medicine>
+     <Medicine>
         <Treatment>Fever</Treatment>
-        <Brand_Name></Brand_Name>
-        <Generic_Name></Generic_Name>
-        <Manufacturer></Manufacturer>
-        <Dosage_Form></Dosage_Form>
+        <Brand_Name>Biogesic</Brand_Name>
+        <Generic_Name>Paracetamol</Generic_Name>
+        <Manufacturer>Unilab</Manufacturer>
+        <Dosage_Form>Tablet</Dosage_Form>
             <Dosage>
-                <Dose1></Dose1>
-                <Dose2></Dose2>
-                <Dose3></Dose3>
-                <Dose4></Dose4>  
+                <Dose1>500mg</Dose1>
+                <Dose2>250mg</Dose2>
+                <Dose3>100mg</Dose3>
+                <Dose4>50mg</Dose4>  
             </Dosage>
-    </HERO>
-    <HERO>
+    </Medicine>
+     <Medicine>
         <Treatment>Headache</Treatment>
-        <Brand_Name></Brand_Name>
-        <Generic_Name></Generic_Name>
-        <Manufacturer></Manufacturer>
-        <Dosage_Form></Dosage_Form>
+        <Brand_Name>Advil</Brand_Name>
+        <Generic_Name>Ibuprofen</Generic_Name>
+        <Manufacturer>Wyeth Pharmaceuticals Company</Manufacturer>
+        <Dosage_Form>Tablet</Dosage_Form>
             <Dosage>
-                <Dose1></Dose1>
-                <Dose2></Dose2>
-                <Dose3></Dose3>  
-                <Dose4></Dose4>  
+                <Dose1>800mg</Dose1>
+                <Dose2>400mg</Dose2>
+                <Dose3>200mg</Dose3>  
+                <Dose4>100mg</Dose4>  
             </Dosage>
-    </HERO>
-    <HERO>
-        <Treatment>Stomachache</Treatment>
-        <Brand_Name></Brand_Name>
-        <Generic_Name></Generic_Name>
-        <Manufacturer></Manufacturer>
-        <Dosage_Form></Dosage_Form>
-            <Dosage>
-                <Dose1></Dose1>
-                <Dose2></Dose2>
-                <Dose3></Dose3>  
-                <Dose4></Dose4>  
-            </Dosage>
-    </HERO>
-    <HERO>
+    </Medicine>
+    <Medicine>
         <Treatment>Toothache</Treatment>
-        <Brand_Name></Brand_Name>
-        <Generic_Name></Generic_Name>
-        <Manufacturer></Manufacturer>
-        <Dosage_Form></Dosage_Form>
+        <Brand_Name>Tylenol</Brand_Name>
+        <Generic_Name>Acetaminophen</Generic_Name>
+        <Manufacturer>Johnson and Johnson</Manufacturer>
+        <Dosage_Form>Coated Tablets</Dosage_Form>
             <Dosage>
-                <Dose1></Dose1>
-                <Dose2></Dose2>
-                <Dose3></Dose3>
-                <Dose4></Dose4>  
+                <Dose1>500mg</Dose1>
+                <Dose2>250mg</Dose2>
+                <Dose3>100mg</Dose3>
+                <Dose4>50mg</Dose4>  
             </Dosage>
-    </HERO>
-</MARVEL_HEROES>
+    </Medicine>
+    <Medicine>
+        <Treatment>Stomachache</Treatment>
+        <Brand_Name>Buscopan</Brand_Name>
+        <Generic_Name>Hyoscine Butylbromide</Generic_Name>
+        <Manufacturer>Boehringer-Ingelheim</Manufacturer>
+        <Dosage_Form>Tablet</Dosage_Form>
+            <Dosage>
+                <Dose1>40mg</Dose1>
+                <Dose2>20mg</Dose2>
+                <Dose3>10mg</Dose3>
+                <Dose4>5mg</Dose4>  
+            </Dosage>
+    </Medicine>
+</Medicines>
